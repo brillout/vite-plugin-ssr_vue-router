@@ -1,11 +1,8 @@
 {
   "pages/all.page.client.js": {
-    "file": "assets/pages/all.page.client.js.a2c48195.js",
+    "file": "assets/pages/all.page.client.js.806d04ed.js",
     "src": "pages/all.page.client.js",
     "isEntry": true,
-    "imports": [
-      "_vendor.017d11a9.js"
-    ],
     "dynamicImports": [
       "pages/all.page.vue",
       "pages/all.page.server.js",
@@ -14,15 +11,12 @@
       "pages/About.vue"
     ]
   },
-  "_vendor.017d11a9.js": {
-    "file": "assets/vendor.017d11a9.js"
-  },
   "pages/all.page.vue": {
-    "file": "assets/all.page.9a7fe2eb.js",
+    "file": "assets/all.page.4105ccd7.js",
     "src": "pages/all.page.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor.017d11a9.js"
+      "pages/all.page.client.js"
     ],
     "css": [
       "assets/all.page.d432a709.css"
@@ -39,12 +33,12 @@
     "isDynamicEntry": true
   },
   "pages/Home.vue": {
-    "file": "assets/Home.91d2b2ca.js",
+    "file": "assets/Home.4a6227d2.js",
     "src": "pages/Home.vue",
     "isDynamicEntry": true,
     "imports": [
       "_plugin-vue_export-helper.21dcd24c.js",
-      "_vendor.017d11a9.js"
+      "pages/all.page.client.js"
     ],
     "css": [
       "assets/Home.357906ab.css"
@@ -54,12 +48,12 @@
     "file": "assets/plugin-vue_export-helper.21dcd24c.js"
   },
   "pages/About.vue": {
-    "file": "assets/About.63183c43.js",
+    "file": "assets/About.192aa402.js",
     "src": "pages/About.vue",
     "isDynamicEntry": true,
     "imports": [
       "_plugin-vue_export-helper.21dcd24c.js",
-      "_vendor.017d11a9.js"
+      "pages/all.page.client.js"
     ],
     "css": [
       "assets/About.b51b67cf.css"

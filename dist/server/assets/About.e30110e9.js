@@ -1,5 +1,5 @@
 "use strict";
-exports[Symbol.toStringTag] = "Module";
+Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 var serverRenderer = require("vue/server-renderer");
 var vue = require("vue");
 var pluginVue_exportHelper = require("./plugin-vue_export-helper.db096aab.js");

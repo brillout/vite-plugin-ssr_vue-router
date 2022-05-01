@@ -1,7 +1,7 @@
 {
-  "../../vite-plugin-ssr/dist/esm/node/page-files/pageFiles.js": {
+  "node_modules/.pnpm/vite-plugin-ssr@0.3.64_vite@2.9.6/node_modules/vite-plugin-ssr/dist/esm/node/page-files/pageFiles.js": {
     "file": "pageFiles.js",
-    "src": "../../vite-plugin-ssr/dist/esm/node/page-files/pageFiles.js",
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.3.64_vite@2.9.6/node_modules/vite-plugin-ssr/dist/esm/node/page-files/pageFiles.js",
     "isEntry": true,
     "dynamicImports": [
       "pages/all.page.vue",
@@ -19,7 +19,7 @@
     ]
   },
   "pages/all.page.client.js": {
-    "file": "assets/all.page.client.35ac5a3f.js",
+    "file": "assets/all.page.client.68b4cba8.js",
     "src": "pages/all.page.client.js",
     "isDynamicEntry": true
   },
