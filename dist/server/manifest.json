@@ -1,0 +1,65 @@
+{
+  "../../vite-plugin-ssr/dist/esm/node/page-files/pageFiles.js": {
+    "file": "pageFiles.js",
+    "src": "../../vite-plugin-ssr/dist/esm/node/page-files/pageFiles.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/all.page.vue",
+      "pages/all.page.client.js",
+      "pages/all.page.server.js",
+      "pages/all.page.route.js"
+    ]
+  },
+  "pages/all.page.vue": {
+    "file": "assets/all.page.9b819542.js",
+    "src": "pages/all.page.vue",
+    "isDynamicEntry": true,
+    "css": [
+      "assets/all.page.3b0d364a.css"
+    ]
+  },
+  "pages/all.page.client.js": {
+    "file": "assets/all.page.client.35ac5a3f.js",
+    "src": "pages/all.page.client.js",
+    "isDynamicEntry": true
+  },
+  "pages/all.page.server.js": {
+    "file": "assets/all.page.server.8c857432.js",
+    "src": "pages/all.page.server.js",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "pages/Home.vue",
+      "pages/About.vue"
+    ]
+  },
+  "pages/all.page.route.js": {
+    "file": "assets/all.page.route.271545ba.js",
+    "src": "pages/all.page.route.js",
+    "isDynamicEntry": true
+  },
+  "pages/Home.vue": {
+    "file": "assets/Home.c809de8b.js",
+    "src": "pages/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_plugin-vue_export-helper.db096aab.js"
+    ],
+    "css": [
+      "assets/Home.cf5ff853.css"
+    ]
+  },
+  "_plugin-vue_export-helper.db096aab.js": {
+    "file": "assets/plugin-vue_export-helper.db096aab.js"
+  },
+  "pages/About.vue": {
+    "file": "assets/About.e30110e9.js",
+    "src": "pages/About.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_plugin-vue_export-helper.db096aab.js"
+    ],
+    "css": [
+      "assets/About.e78f9a83.css"
+    ]
+  }
+}
